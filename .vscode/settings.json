@@ -1,0 +1,26 @@
+{
+  "files.associations": {
+    "*.ahk": "ahk",
+    "array": "cpp",
+    "deque": "cpp",
+    "forward_list": "cpp",
+    "list": "cpp",
+    "string": "cpp",
+    "unordered_map": "cpp",
+    "unordered_set": "cpp",
+    "vector": "cpp",
+    "string_view": "cpp",
+    "initializer_list": "cpp",
+    "regex": "cpp",
+    "valarray": "cpp",
+    "cmath": "cpp",
+    "iostream": "cpp",
+    "ostream": "cpp",
+    "cstdlib": "cpp",
+    "tuple": "cpp",
+    "*.tcc": "cpp",
+    "algorithm": "cpp",
+    "map": "cpp",
+    "limits": "cpp"
+  }
+}

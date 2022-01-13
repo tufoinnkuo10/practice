@@ -1,0 +1,38 @@
+{
+  "name": "coding-interview",
+  "version": "1.0.0",
+  "description": "![](https://img.shields.io/badge/Microverse-blueviolet)",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mhdez221993/coding-interview.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mhdez221993/coding-interview/issues"
+  },
+  "homepage": "https://github.com/Mhdez221993/coding-interview#readme",
+  "devDependencies": {
+    "babel-eslint": "10.1.x",
+    "cppunitlite": "^1.0.0",
+    "eslint": "6.8.x",
+    "eslint-config-airbnb": "18.1.x",
+    "eslint-config-airbnb-base": "14.1.x",
+    "eslint-plugin-import": "2.20.x",
+    "eslint-plugin-jsx-a11y": "6.2.x",
+    "eslint-plugin-react": "7.20.x",
+    "eslint-plugin-react-hooks": "2.5.x",
+    "jest": "^27.2.5",
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "20.0.x",
+    "stylelint-csstree-validator": "^1.9.0",
+    "stylelint-scss": "3.17.x"
+  },
+  "dependencies": {
+    "cppunitlite-2": "^1.0.0"
+  }
+}
