@@ -18,3 +18,20 @@ function DNAStrand(dna){
   let results = pairdna.toString().split(',').join('')
   return results;
 }
+
+
+/////// TWO SUMS TO GET TARGET NUMBER FROM AN ARAY
+var twoSum = function(nums, target) {
+    let arraySize = nums.length;
+    
+    
+    for (let i=0; i < arraySize; i++){
+        for (let j =i + 1; j < arraySize; j++){
+            if ((nums[i] + nums[j])===target ){
+                return [i, j]
+            }
+    
+        }
+    }
+    
+};
