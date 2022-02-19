@@ -20,7 +20,7 @@ function DNAStrand(dna){
 }
 
 
-/////// TWO SUMS TO GET TARGET NUMBER FROM AN ARAY
+/////// TWO SUMS TO GET TARGET NUMBER FROM AN ARA
 var twoSum = function(nums, target) {
     let arraySize = nums.length;
     
