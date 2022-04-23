@@ -4,7 +4,7 @@ AAAA = TTTT
 "ATTGC" --> "TAACG"
 "GTAT" --> "CATA"
 
-....//////
+....///////
 function DNAStrand(dna){
   //your code here
   const pairdna = [];
