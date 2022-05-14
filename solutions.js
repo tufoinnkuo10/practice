@@ -33,5 +33,20 @@ var twoSum = function(nums, target) {
     
         }
     }
+  
+  // palindrome 
+  var isPalindrome = function(x) {  
+    // /[\W_]/g
+    // /[^A-Za-z0-9_]/g
+    var regex = /[^A-Za-z0-9_]/g
+    
+    var regreplace = x.toString().replace(regex, '');
+    var firstcheck = regreplace.split('').reverse().join('');
+    
+    var lastcheck = regreplace == firstcheck
+    return lastcheck
+    
+    
+};
     
 };
