@@ -35,18 +35,30 @@ var twoSum = function(nums, target) {
     }
   
   // palindrome 
-  var isPalindrome = function(x) {  
+  /**
+ * @param {number} x
+ * @return {boolean}
+ */
+var isPalindrome = function(x) {  
     // /[\W_]/g
     // /[^A-Za-z0-9_]/g
-    var regex = /[^A-Za-z0-9_]/g
+    var regex = /[\W_]/g
     
-    var regreplace = x.toString().replace(regex, '');
+    var regreplace = x.toString()
     var firstcheck = regreplace.split('').reverse().join('');
     
     var lastcheck = regreplace == firstcheck
     return lastcheck
-    
-    
-};
+    // var answer= x.toString().replace(regex, '').split('').reverse().join('');
+    // return answer
+     // var re = /[^A-Za-z0-9]/g;
+//  str = x.toString().replace(re, '');
+//  var len = str.length;
+//  for (var i = 0; i < len/2; i++) {
+//    if (str[i] !== str[len - 1 - i]) {
+//        return false;
+//    }
+//  }
+//  return true;
     
 };
